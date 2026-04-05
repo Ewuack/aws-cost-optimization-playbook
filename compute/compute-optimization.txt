@@ -1,0 +1,19 @@
+AWS Compute Optimization Strategies
+
+1. Rightsizing EC2 Instances
+   - Use AWS Compute Optimizer recommendations
+   - Downsize underutilized instances
+   - Move from M5 → M6g (Graviton) for cost savings
+
+2. Instance Purchasing Options
+   - Use Reserved Instances for steady workloads
+   - Use Spot Instances for flexible workloads
+   - Use Savings Plans for predictable usage
+
+3. Containerization
+   - Migrate EC2 workloads to ECS/Fargate
+   - Reduce idle compute costs
+
+4. Serverless Adoption
+   - Use Lambda for event-driven workloads
+   - Reduce always-on compute costs
