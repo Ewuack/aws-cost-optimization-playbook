@@ -1,0 +1,14 @@
+AWS Networking Optimization Strategies
+
+1. Reduce Data Transfer Costs
+   - Use VPC Endpoints instead of NAT Gateway for S3/DynamoDB
+   - Minimize cross-AZ traffic
+   - Use CloudFront for content delivery
+
+2. NAT Gateway Optimization
+   - Consolidate NAT Gateways
+   - Use private subnets efficiently
+
+3. Load Balancer Optimization
+   - Use ALB instead of NLB where possible
+   - Remove unused load balancers
