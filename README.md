@@ -33,7 +33,7 @@ aws-cost-optimization-playbook/
 | Metric | Before | After | Impact |
 |--------|--------|-------|--------|
 | Monthly AWS Spend | $186K | $127K | **-32% reduction** |
-| Idle/Unused Resources | 23% of fleet | <3% | **Eliminated waste** |
+| Idle/Unused Resources | 23% of fleet | under 3% | **Eliminated waste** |
 | RI/SP Coverage | 18% | 72% | **Optimized commitments** |
 | Cost Anomaly Detection | Manual/monthly | Automated/real-time | **Proactive governance** |
 
